@@ -3,7 +3,7 @@ apipkg==1.5                     # via execnet
 attrs==20.3.0                   # via pytest
 babel==2.5.3                    # via shuup
 beautifulsoup4==4.5.3
-bleach==3.1.5                   # via shuup
+bleach==3.3.0                   # via shuup
 cairocffi==1.2.0                 # via cairosvg, weasyprint
 cairosvg==2.5.2                 # via weasyprint
 certifi==2020.12.5               # via requests
