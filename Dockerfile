@@ -12,6 +12,9 @@ RUN apt-get update \
         python3-pip \
     && rm -rf /var/lib/apt/lists/ /var/cache/apt/
 
+RUN pip3 install -U pip
+RUN pip3 install markupsafe==2.0.1
+
 # These invalidate the cache every single time but
 # there really isn't any other obvious way to do this.
 COPY . /app
